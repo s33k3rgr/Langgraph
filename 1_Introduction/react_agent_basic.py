@@ -23,5 +23,5 @@ tools = [search_tool, get_system_time]
 
 agent = initialize_agent(tools=tools, llm=llm, agent="zero-shot-react-description", verbose=True)
 
-agent.invoke("When was SpaceX's last launch and how many days ago was that from this instant")
+agent.invoke("Give me a funny tweet about today's weather in Athens, Greece")
 
